@@ -79,7 +79,7 @@ const Footer = () => {
         <div className="row mt-4">
           <div className="col-12">
             <p className="text-center mb-0">
-              &copy; 2023 All rights reserved - ePoultry | Page designed by <a href="https://olivebishop.vercel.app/" style={{ textDecoration: 'none', color: 'red' }}>OliveBishop 💕</a>
+              &copy; 2023 All rights reserved - ePoultry | Page designed by <a href="https://olivebishop.vercel.app/" style={{ textDecoration: 'none', color: 'red' }}>TRUE GRAPHICS 💕</a>
             </p>
           </div>
         </div>

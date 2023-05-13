@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../assets/logo.jpg';
+import logo from '../assets/logo.png';
 import { Navbar, Nav } from 'react-bootstrap';
 import './css/Navbar.css';
 
@@ -24,6 +24,9 @@ const CustomNavbar = () => {
           </Nav.Link>
           <Nav.Link as={Link} to="/services">
             Services
+          </Nav.Link>
+          <Nav.Link as={Link} to="/careers">
+            Careers
           </Nav.Link>
           <Nav.Link as={Link} to="/contact">
             Contact
