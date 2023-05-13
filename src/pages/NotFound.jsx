@@ -6,7 +6,6 @@ const NotFoundPage = () => {
   return (
     <div className="not-found-page">
       <Container>
-        <h1 className="text-center">GO BACK</h1>
         <h4 className="text-center">PAGE NOT FOUND!</h4>
         <div className="text-center">
           <img
