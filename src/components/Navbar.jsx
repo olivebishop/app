@@ -19,10 +19,10 @@ const CustomNavbar = () => {
           <Nav.Link as={Link} to="/about">
             About
           </Nav.Link>
-          <Nav.Link as={Link} to="/products">
+          <Nav.Link as={Link} to="/product">
             Products
           </Nav.Link>
-          <Nav.Link as={Link} to="/services">
+          <Nav.Link as={Link} to="/service">
             Services
           </Nav.Link>
           <Nav.Link as={Link} to="/careers">
