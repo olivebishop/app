@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../assets/logo.png';
-import { Navbar, Nav } from 'react-bootstrap';
+import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import './css/Navbar.css';
 
 const CustomNavbar = () => {
@@ -25,9 +25,17 @@ const CustomNavbar = () => {
           <Nav.Link as={Link} to="/service">
             Services
           </Nav.Link>
-          <Nav.Link as={Link} to="/careers">
-            Careers
-          </Nav.Link>
+          <NavDropdown title="Media" id="media-dropdown">
+            <NavDropdown.Item as={Link} to="/team">
+              Our Team
+            </NavDropdown.Item>
+            <NavDropdown.Item as={Link} to="/poultry">
+              Poultry
+            </NavDropdown.Item>
+            <NavDropdown.Item as={Link} to="/training">
+              Training Team
+            </NavDropdown.Item>
+          </NavDropdown>
           <Nav.Link as={Link} to="/contact">
             Contact
           </Nav.Link>

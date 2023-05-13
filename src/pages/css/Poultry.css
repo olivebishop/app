@@ -1,0 +1,53 @@
+.poultry-section {
+    padding: 80px 0;
+  }
+  
+  .poultry-title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  .poultry-item {
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+    margin-bottom: 20px;
+  }
+  
+  .poultry-image {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+  }
+  
+  .poultry-image:hover {
+    transform: scale(1.1);
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .poultry-item:hover .overlay {
+    opacity: 1;
+  }
+  
+  @media (max-width: 768px) {
+    .poultry-title {
+      font-size: 24px;
+    }
+  
+    .poultry-item {
+      height: 200px;
+    }
+  }
+  

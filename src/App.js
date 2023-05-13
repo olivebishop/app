@@ -14,6 +14,9 @@ import NotFound from './pages/NotFound';
 import Service from './pages/Service';
 import Product from './pages/Product.jsx';
 import Careers from './pages/Careers';
+import Poultry from './pages/Poultry';
+import Training from './pages/Training';
+import Team from './pages/Team';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -40,6 +43,9 @@ function App() {
             <Route path="/service" element={<Service />} />
             <Route path="/careers" element={<Careers />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/poultry" element={<Poultry />} />
+            <Route path="/training" element={<Training />} />
+            <Route path="/team" element={<Team />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
           <Footer />
